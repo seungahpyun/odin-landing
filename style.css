@@ -1,3 +1,5 @@
+/*section_1*/
+
 .section_1{
   background-color: #1F2937;
 }
@@ -19,9 +21,25 @@ a, .section_1_description{
   font-size: 18px;
 }
 
-
+/*section_2*/
 .section_2_header{
   color:#1F2937;
   font-size: 36px;
   font-weight: 800;
 }
+
+.section_2_image {
+  width: 120px;
+  height: 120px;
+  padding: 10px;
+  border-radius: 25px;
+  border: 3px solid #3882f6;
+  margin: 0;
+}
+
+.section_2_description{
+  color:gray;
+}
+
+/*section_3*/
+/*section_4*/
