@@ -42,4 +42,19 @@ a, .section_1_description{
 }
 
 /*section_3*/
+.section_3{
+  background-color: #E5E7EB;
+}
+
+.section_3_textbox{
+  font-size: 36px;
+  color: #1F2937;
+  font-style:italic;
+}
+
+.section_3_textbox_title{
+  font-size: 24px;
+  color: #1F2937;
+  font-weight: 600;
+}
 /*section_4*/
