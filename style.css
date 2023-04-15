@@ -1,7 +1,26 @@
 /*section_1*/
+.header, .section_container_1{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 150px;
+}
 
 .section_1, .footer{
   background-color: #1F2937;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  display: inline;
+  padding: 32px;
+}
+
+a{
+  text-decoration: none;
 }
 
 
@@ -23,6 +42,11 @@ a, .section_1_description, .footer{
 }
 
 /*section_2*/
+.section_2_card{
+  display: flex;
+  flex-direction: column;
+}
+
 .section_2_header{
   color:#1F2937;
   font-size: 36px;
