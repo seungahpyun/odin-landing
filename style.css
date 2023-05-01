@@ -113,6 +113,13 @@ a, .section_1_description, .footer{
 .section_4{
   background-color:#3882f6;
   color:#E5E7EB;
+  display: flex;
+  justify-content: center;
+}
+
+.section_4_content{
+  display: flex;
+  justify-content: space-between;
 }
 
 .section_4_header{
@@ -131,4 +138,9 @@ a, .section_1_description, .footer{
   border-radius: 10px;
   font-size: 24px;
   padding: 10px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
 }
