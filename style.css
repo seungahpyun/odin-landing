@@ -123,22 +123,26 @@ a, .section_1_description, .footer{
 
 
 /*section_4*/
-.section_4{
-  background-color:#3882f6;
-  color:#E5E7EB;
-  display: flex;
-  justify-content: center;
-}
-
 .section_4_content{
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap:32px;
+  padding:36px;
+  background-color: #3882f6;
+  border-radius: 5px;
+  margin:100px auto;
+  color: #f9faf8;
+  flex-flow: row wrap;
+  width: 800px;
 }
+
 
 .section_4_header{
   font-weight: 600;
   font-size: 28px;
 }
+
 
 .section_4_description{
   font-size: 20px;
@@ -148,9 +152,7 @@ a, .section_1_description, .footer{
   color:#E5E7EB;
   background-color:#3882f6;
   border: 2px solid #E5E7EB;
-  border-radius: 10px;
-  font-size: 24px;
-  padding: 10px;
+  border-radius: 25px;
 }
 
 .footer{
