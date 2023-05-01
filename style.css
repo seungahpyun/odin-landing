@@ -1,4 +1,12 @@
 /*section_1*/
+.section_1_content{
+  display: flex;
+  flex-direction:column;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+
 .header{
   height: 80px;
   display: flex;
@@ -9,7 +17,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap:24px;
+  gap:30%;
+  padding-bottom: 5%;
+
 }
 
 .section_1, .footer{
@@ -53,6 +63,7 @@ a, .section_1_description, .footer{
 .section_2{
   display: flex;
   flex-direction: column;
+  padding-bottom: 5%;
 }
 
 .section_2_header{
@@ -60,14 +71,14 @@ a, .section_1_description, .footer{
   font-weight: bold;
   font-size: 24px;
   text-align: center;
+  padding: 3%;
 }
 
 .section_2_content{
   display: flex;
   justify-content: center;
-  padding-left: 200px;
-  padding-right: 200px;
-  gap: 20px;
+  gap: 64px;
+  padding-bottom: 30px;
 }
 
 .section_2_image {
@@ -76,13 +87,13 @@ a, .section_1_description, .footer{
   padding: 10px;
   border-radius: 25px;
   border: 3px solid #3882f6;
-  margin: 0;
+
 }
 
 .section_2_description{
   color:gray;
-  font-size: 9px;
-  text-align: center;
+  font-size: 13px;
+  width: 160px;
 }
 
 
@@ -92,6 +103,8 @@ a, .section_1_description, .footer{
   background-color: #E5E7EB;
   display: flex;
   justify-content: center;
+  padding-top: 5%;
+  padding-bottom: 5%;
 }
 
 .section_3_textbox{
