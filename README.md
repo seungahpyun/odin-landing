@@ -1,3 +1,5 @@
 # odin-landing
+
 Odin CSS Project: Landing Page
-Live view : https://github.com/seungahpyun/odin-landing.git
+
+Live view : https://seungahpyun.github.io/odin-landing.git
