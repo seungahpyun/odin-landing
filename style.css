@@ -2,6 +2,7 @@
 body{
   margin: 0;
   padding: 0;
+  font-family: 'Roboto', sans-serif;
 }
 
 .section_1_content{
@@ -21,9 +22,19 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 30%;
+  gap: 10%;
   padding-bottom: 5%;
 }
+
+.section_1_right{
+  display: flex;
+  height: 150px;
+  width: 400px;
+  background-color: burlywood;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .section_1, .footer{
   background-color: #1F2937;
@@ -113,7 +124,7 @@ a, .section_1_description, .footer{
 
 .section_3_textbox{
   font-size: 36px;
-  color: #1F2937;
+  color: gray;
   font-style:italic;
 }
 
@@ -138,7 +149,7 @@ a, .section_1_description, .footer{
   margin: 100px auto;
   color: #f9faf8;
   flex-flow: row wrap;
-  width: 60%;
+  width: 50%;
 }
 
 
