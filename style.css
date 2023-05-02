@@ -1,14 +1,12 @@
 /*section_1*/
-body {
-  margin:0;
-  padding:0;
+body{
+  margin: 0;
+  padding: 0;
 }
 
 .section_1_content{
   display: flex;
-  flex-direction:column;
-  padding-left: 200px;
-  padding-right: 200px;
+  flex-direction: column;
 }
 
 
@@ -16,15 +14,15 @@ body {
   height: 80px;
   display: flex;
   justify-content: space-between;
+  padding: 1%;
 }
 
 .section_container_1{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap:30%;
+  gap: 30%;
   padding-bottom: 5%;
-
 }
 
 .section_1, .footer{
@@ -33,6 +31,7 @@ body {
 
 ul{
   list-style-type: none;
+  display: flex;
 }
 
 li{
@@ -84,6 +83,7 @@ a, .section_1_description, .footer{
   justify-content: center;
   gap: 64px;
   padding-bottom: 30px;
+  flex-wrap:wrap;
 }
 
 .section_2_image {
@@ -92,7 +92,6 @@ a, .section_1_description, .footer{
   padding: 10px;
   border-radius: 25px;
   border: 3px solid #3882f6;
-
 }
 
 .section_2_description{
@@ -132,14 +131,14 @@ a, .section_1_description, .footer{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:32px;
-  padding:36px;
+  gap: 32px;
+  padding: 36px;
   background-color: #3882f6;
   border-radius: 5px;
-  margin:100px auto;
+  margin: 100px auto;
   color: #f9faf8;
   flex-flow: row wrap;
-  width: 800px;
+  width: 60%;
 }
 
 
